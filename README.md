@@ -1,6 +1,6 @@
 # Spring Security Examples
 
-Examples with Spring Security (OAuth2 and OpenID, Authentication, Authorization)
+Examples with Spring Security (OAuth2 and OpenID Connect, Authentication and Authorization)
 
 ## OAuth2 and OpenID Connect
 
