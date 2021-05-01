@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: demo-client
+            client-secret: faffd11b-95c0-46b0-9579-0434e2cb3b93
+            scope: openid, profile, email, roles
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8181/auth/realms/SecurityDemo
