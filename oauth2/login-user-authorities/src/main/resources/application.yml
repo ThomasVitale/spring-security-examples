@@ -10,6 +10,8 @@ spring:
         provider:
           keycloak:
             issuer-uri: http://localhost:8181/auth/realms/SecurityDemo
+
 logging:
   level:
     org.springframework.security.*: trace
+
